@@ -1,0 +1,111 @@
+.section {
+    display: block;
+    border:2px solid  #707070;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-top: 15vh;
+}
+
+.orderDisplay{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10vh;
+    margin-left: 10vh;
+}
+.header{
+    font-family: normal normal normal 35px/47px Open Sans;
+    font-weight: 500;
+    color: #000000;
+}
+.headerX{
+    font-family: normal normal normal 35px/47px Open Sans;
+    font-weight: 500;
+    color: #000000;
+}
+.headerY{
+    font-family: normal normal normal 35px/47px Open Sans;
+    font-weight: 500;
+    color: #000000;
+}
+.headerTwo {
+    color: #499887;
+    font-family: normal normal 35px/43px Montserrat;
+}
+.order{
+    font-family: normal normal normal 28px/38px Open Sans;
+    font-weight: 300;
+    color:#707070;
+}
+.locality{
+ display: block;
+ margin-right: 10vh;
+ margin-left: 10vh;
+}
+
+
+.service{
+    background:#F7F7F7;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    margin:2vh;
+    width:25vh;
+    height: auto;
+}
+
+.headerThree {
+    color: #050505;
+    font-family: normal normal normal 32px/43px Open Sans;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:600px){
+    .section{
+        margin-top:2vh;
+        margin-right: 1vh;
+        margin-left: 1vh;
+    }
+    .orderDisplay{
+        margin-left:1vh;
+        margin-right:1vh;
+        display:flex;
+    }
+    .header{
+        display: grid;
+        font-size: 15px;
+    }
+    .headerX{
+        display: grid;
+        font-size: 15px;
+    }
+    .locality{
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+    .headerY{
+        font-size: 15px;
+    }
+    .service{
+        display: grid;
+        margin-right: 3vh;
+        margin-left: 3vh;
+        margin-bottom: 2vh;
+    }
+    .image{
+        width:90%;
+    }
+    .headerTwo{
+        font-size: 10px;
+        text-align: center;
+    }
+    .headerThree{
+        text-align: center;
+        font-size: 12px;
+    }
+}

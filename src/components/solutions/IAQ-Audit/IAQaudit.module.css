@@ -1,0 +1,203 @@
+.content {
+  display: flex;
+  margin: 2%;
+  padding: 2%;
+}
+.contentImage {
+  width: 40%;
+  margin-top: 3vh;
+}
+.contentPic {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: none;
+  padding: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.contentRight {
+  display: inline-block;
+  width: 60%;
+  background-color: #f7f7f7;
+}
+.contentDiv {
+  margin-left: 6vw;
+}
+.textField {
+  font-family: normal normal 200 Montserrat;
+  font-weight: 500;
+  margin-bottom: none;
+  margin-right: 3vw;
+  font-size: 30px;
+  padding: 0;
+  color: #279989;
+}
+
+.textFieldTwo {
+  font-family: normal normal 200 Montserrat;
+  font-weight: 400;
+  margin-bottom: none;
+  margin-right: 4vw;
+  font-size: 35px;
+  padding: 0;
+  color: #279989;
+}
+
+.header4 {
+  text-align: left;
+
+  font-family: normal normal normal Montserrat;
+  font-size: 27px;
+  font-weight: 300;
+}
+.para {
+  text-align: left;
+  font-size: 20px;
+  color: #666666;
+  margin-right: 10vw;
+  font-family: normal normal normal 28px/34px Montserrat;
+}
+.button1 {
+  background-color: white;
+  color: #279989;
+  border: 2px solid #279989;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+@media screen and (min-width: 1316px) and (max-width: 1440px) {
+  .textField {
+    margin-right: 4vw;
+    font-size: 27px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1315px) {
+  .textField {
+    margin-right: 2vw;
+  }
+}
+
+@media screen and (min-width: 330px) and (max-width: 364px) {
+  .content {
+    display: block;
+  }
+  .contentImage {
+    width: 98%;
+    height: auto;
+    margin-top: 0;
+  }
+  .contentRight {
+    margin-top: 1vw;
+    width: 98%;
+  }
+  .contentDiv {
+    margin-left: 3vw;
+  }
+  .header4 {
+    font-size: 20px;
+  }
+  .textField {
+    font-size: 18px;
+    margin-right: 1.5vw;
+  }
+  .para {
+    font-size: 15px;
+    margin-top: -2vh;
+    padding-right: 6vw;
+  }
+}
+@media screen and (min-width: 364px) and (max-width: 379px) {
+  .content {
+    display: block;
+  }
+  .contentImage {
+    width: 98%;
+    height: auto;
+    margin-top: 0;
+  }
+  .contentRight {
+    margin-top: 1vw;
+    width: 98%;
+  }
+  .contentDiv {
+    margin-left: 3vw;
+  }
+  .header4 {
+    font-size: 20px;
+  }
+  .textField {
+    font-size: 18px;
+    margin-right: 1vw;
+  }
+  .para {
+    font-size: 15px;
+    margin-top: -2vh;
+    padding-right: 3vw;
+  }
+}
+@media screen and (min-width: 379px) and (max-width: 429px) {
+  .content {
+    display: block;
+  }
+  .contentImage {
+    width: 98%;
+    height: auto;
+    margin-top: 0;
+  }
+  .contentRight {
+    margin-top: 1vw;
+    width: 98%;
+  }
+  .contentDiv {
+    margin-left: 3vw;
+  }
+  .header4 {
+    font-size: 20px;
+  }
+  .textField {
+    font-size: 21px;
+    margin-right: 1vw;
+  }
+  .para {
+    font-size: 15px;
+    margin-top: -2vh;
+    padding-right: 2.5vw;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 600px) {
+  .content {
+    display: block;
+  }
+  .contentImage {
+    width: 98%;
+    height: auto;
+    margin-top: 0;
+  }
+  .contentRight {
+    margin-top: 1vw;
+    width: 98%;
+  }
+  .contentDiv {
+    margin-left: 3vw;
+  }
+  .header4 {
+    font-size: 20px;
+  }
+  .textField {
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 1vw;
+  }
+  .textFieldTwo {
+    font-weight: 600;
+  }
+  .para {
+    margin-top: -2vh;
+    font-size: 15px;
+  }
+}

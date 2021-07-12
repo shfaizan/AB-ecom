@@ -1,0 +1,32 @@
+.displayItems {
+  display: grid;
+  background-color: #f7f7f7;
+  margin: 4%;
+  padding: 4%;
+}
+.imageCheckout {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+}
+.paraText {
+  text-align: center;
+  align-items: center;
+}
+.text {
+  display: block;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-right: 7%;
+  padding-left: 7%;
+}
+.spanText {
+  float: right;
+}
+@media screen and (max-width: 600px) {
+  .imageCheckout {
+    width: 95%;
+  }
+}
